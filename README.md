@@ -8,6 +8,11 @@
 
 ### Command
 ```bash
+pip install fastapi uvicorn
+```
+
+### Command
+```bash
 uvicorn app:app --reload
 ```
 
