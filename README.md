@@ -5,7 +5,6 @@ Part for Local Computer
 
 Markdown
 ```python
-# Your code here
 uvicorn app:app --reload
 
 Part for Docker
@@ -15,7 +14,8 @@ Navigate to the directory containing your WU_botecare project.
 
 Run the following command to build the Docker image:
 
-bash
-Copy code
+Markdown
+```python
 docker build -t <image_name>:<tag> <path_to_Dockerfile>
+
 ➡️ Replace <image_name> with the desired name for your Docker image, <tag> with an optional tag, and <path_to_Dockerfile> with the path to your Dockerfile.
