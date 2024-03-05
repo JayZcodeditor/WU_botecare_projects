@@ -1,21 +1,27 @@
-WU_botecare_projects
-Part for Local Computer
-1.First, install any required libraries using pip.
-2.Run the following command to start the app:
+# WU_botecare_projects
 
-```python
+**Part for Local Computer**
+
+1. First, install any required libraries using pip.
+
+2. Run the following command to start the app:
+
+### Command
+```bash
 uvicorn app:app --reload
 ```
 
 
-Part for Docker
-Install Docker Desktop from the following link: Docker Desktop Installer.
 
-Navigate to the directory containing your WU_botecare project.
+**Part for Docker**
+1. Install Docker Desktop from the following link: Docker Desktop Installer.
 
-Run the following command to build the Docker image:
+2. Navigate to the directory containing your WU_botecare project.
 
-```python
+3. nRun the following command to build the Docker image:
+
+### Command
+```bash
 docker build -t <image_name>:<tag> <path_to_Dockerfile>
 ```
 
